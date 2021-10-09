@@ -15,9 +15,9 @@ rztpln(n = 10, mu = 0, sig = 1)
 rztpln(n = 10, mu = 6, sig = 4)
 
 ## ---- eval = T----------------------------------------------------------------
-rztplnm(n = 100, 
-  mu = c(0, 4), 
-  sig = c(0.5, 0.5), 
+rztplnm(n = 100,
+  mu = c(0, 4),
+  sig = c(0.5, 0.5),
   theta = c(0.2, 0.8)) %>%
   log %>% hist(main = "", xlab = "k")
 
